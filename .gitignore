@@ -1,0 +1,16 @@
+# Ignore virtual environments
+.venv/
+env/
+venv/
+__pycache__/
+
+# Ignore Python cache/compiled files
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Ignore environment/version files
+.python-version
+*.lock
