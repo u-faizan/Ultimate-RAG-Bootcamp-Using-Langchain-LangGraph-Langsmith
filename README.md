@@ -43,6 +43,16 @@ Comprehensive coverage of data handling techniques:
 Practical examples are provided in the `/0-DataIngestParsing` folder with sample data in the `/data` directory.
 See `Section 5/notes.md` for detailed implementation notes.
 
+### Section 6: Embeddings
+Focused coverage of vector embeddings and how to generate and use them in RAG systems:
+- Embedding fundamentals and intuition
+- OpenAI and local embedding models
+- Dimensionality trade-offs and indexing strategies
+- Batching, normalization, and performance tips
+
+Hands-on materials: `Section 6/embedding.ipynb`, `Section 6/openaiembeddings.ipynb`, and `Section 6/18-Embeddings.pdf`.
+See `Section 6/notes.md` for implementation notes and best practices.
+
 ## Repository Structure
 
 Each section follows a consistent structure:
@@ -57,7 +67,6 @@ Each section follows a consistent structure:
 - Reference materials and diagrams are preserved for future use
 
 ## Sections Coming Soon
-- Section 6: Embeddings
 - Section 7: Vector Databases
 - Additional sections to be added as the course progresses
 
