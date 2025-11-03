@@ -14,3 +14,5 @@ __pycache__/
 # Ignore environment/version files
 .python-version
 *.lock
+# Local environment variables
+.env
