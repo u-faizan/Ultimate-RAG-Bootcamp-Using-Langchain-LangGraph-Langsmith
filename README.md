@@ -5,7 +5,7 @@ This repository contains my learning journey and notes from the Ultimate RAG (Re
 ## Course Structure
 
 ### Section 1: Introduction
-Introduction to the course structure and RAG concepts. See `Section 1/notes.md` for detailed notes.
+Introduction to the course structure and RAG concepts. See `Section 1 - Intro/notes.md` for detailed notes.
 
 ### Section 2: Introduction to RAG
 Core RAG concepts including:
@@ -14,15 +14,17 @@ Core RAG concepts including:
 - Embedding-based search
 - Hybrid retrieval approaches
 - Vectorstore selection
-See `Section 2/notes.md` for comprehensive notes and examples.
+See `Section 2 - Introduction to RAG/notes.md` for comprehensive notes and examples.
 
 ### Section 3: Core Components in RAG
-Detailed exploration of RAG system components:
-- Document Store
-- Embedding System
-- Retrieval System
-- Generation System
-See `Section 3/notes.md` for component details and integration patterns.
+A consolidated view of the RAG building blocks:
+- Document loaders and stores
+- Chunking and text splitting strategies
+- Embeddings: model choices and tradeoffs
+- Vector stores and retrievers (hybrid strategies)
+- Prompt templates and orchestration (LangChain, LangGraph)
+- Evaluation and metrics
+See `Section 3 - Core Components in RAG/notes.md` for details.
 
 ### Section 4: Development Environment Setup
 Step-by-step guide for setting up the development environment:
@@ -30,7 +32,7 @@ Step-by-step guide for setting up the development environment:
 - VS Code setup and extensions
 - Environment management
 - Troubleshooting guide
-See `Section 4/notes.md` for installation instructions and best practices.
+See `Section 4 - Anaconda Installation And VS Code Installation/notes.md` for installation instructions and best practices.
 
 ### Section 5: Data Ingestion and Parsing
 Comprehensive coverage of data handling techniques:
@@ -41,7 +43,7 @@ Comprehensive coverage of data handling techniques:
 - Best practices for data preprocessing
 
 Practical examples are provided in the `/0-DataIngestParsing` folder with sample data in the `/data` directory.
-See `Section 5/notes.md` for detailed implementation notes.
+See `Section 5 - Data Ingestion and Data Parsing Techniques/notes.md` for detailed implementation notes.
 
 ### Section 6: Embeddings
 Focused coverage of vector embeddings and how to generate and use them in RAG systems:
@@ -50,8 +52,16 @@ Focused coverage of vector embeddings and how to generate and use them in RAG sy
 - Dimensionality trade-offs and indexing strategies
 - Batching, normalization, and performance tips
 
-Hands-on materials: `Section 6/embedding.ipynb`, `Section 6/openaiembeddings.ipynb`, and `Section 6/18-Embeddings.pdf`.
-See `Section 6/notes.md` for implementation notes and best practices.
+Hands-on materials: `Section 6 - Vector Embedding and vector Data Bases/embedding.ipynb`, `Section 6 - Vector Embedding and vector Data Bases/openaiembeddings.ipynb`, and `Section 6 - Vector Embedding and vector Data Bases/18-Embeddings.pdf`.
+See `Section 6 - Vector Embedding and vector Data Bases/notes.md` for implementation notes and best practices.
+
+### Section 7: Vector Stores and Vector Databases
+Vector stores vs vector databases; implementations, trade-offs, and tuning:
+- FAISS, Chroma, Milvus, Pinecone, Weaviate, DataStax
+- ANN index types (HNSW, IVF, PQ) and parameters
+- Persistence, metadata storage, hybrid retrieval
+- Hands-on notebooks: Chroma, FAISS, Pinecone, others
+See `Section 7 - Vector Stores and Vector Data Bases/notes.md` and `README.md` in that folder.
 
 ## Repository Structure
 
@@ -67,7 +77,6 @@ Each section follows a consistent structure:
 - Reference materials and diagrams are preserved for future use
 
 ## Sections Coming Soon
-- Section 7: Vector Databases
 - Additional sections to be added as the course progresses
 
 ## Resources
@@ -78,3 +87,8 @@ Each section follows a consistent structure:
 
 ---
 *Note: This README will be updated as additional sections are completed.*
+
+## Getting Started
+
+- New here? Read the quick recall guide: `notes.md` in the repo root.
+- Want details per lecture? Open the section folders (e.g., `Section 1 - Intro/notes.md`, `Section 2 - Introduction to RAG/notes.md`).
